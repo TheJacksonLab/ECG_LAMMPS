@@ -1,5 +1,5 @@
 # PPP for LAMMPS (Beta)
-Repository for implementation of a semi-empirical Fock solver for LAMMPS. It uses a combination of species based empirical parameters and interaction functions to generate the Fock matrix and obtain the molecular orbitals and energy levels. Most of the computationally intensive aspects are handled using GPU libraries for fast calculation. <br><br>
+Repository for implementation of Pariser-Parr-Pople semi-empirical Fock solver for LAMMPS. It uses a combination of species based empirical parameters and interaction functions to generate the Fock matrix and obtain the molecular orbitals and energy levels. Most of the computationally intensive aspects are handled using GPU libraries for fast calculation. <br><br>
 <strong><i> While the code is currently functional, it is still in active development. You may experience bugs or other unexpected output. Consult the authors if you are having trouble. </i></strong>
 
 ## How to compile the code
