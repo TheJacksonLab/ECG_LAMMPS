@@ -1100,7 +1100,8 @@ void FixPPP::post_mortem()
             }
             fprintf(ftype2, "\n\n");
         }
-        fprintf(ftype2, "Unoccupied\n");
+        //fprintf(ftype2, "Unoccupied\n");
+        /*
         for (int i=0;i<10;i++)
         {
             std::string filename = "level" + std::to_string(i) + ".dat";
@@ -1113,6 +1114,7 @@ void FixPPP::post_mortem()
             }
             fclose(ftype3);
         }
+        */
         //for (int i=num_mo;i<num_global_atoms;i++)
         //{
         //    for (int j=0;j<num_global_atoms;j++)
