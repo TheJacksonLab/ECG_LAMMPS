@@ -1,0 +1,15 @@
+include LAMMPS.init
+read_data azaphenalene.data
+
+variable random_seed equal 4928459
+
+timestep 1
+thermo 1
+thermo_style custom step temp press vol etotal ecoul ke pe
+neigh_modify delay 0 every 1 check yes page 100000 one 10000
+
+fix 1 all ppp rhf BH BH BH BH 100 1e-6 1e-4 real 
+run 1
+unfix 1
+
+write_data outstruct.data

@@ -1,0 +1,292 @@
+LAMMPS (29 Aug 2024 - Development - b137ae0-modified)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (-50 -50 -50) to (50 50 50)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  8 atoms
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        0        0.5     
+  special bond factors coul:  0        0        0.5     
+     0 = max # of 1-2 neighbors
+     0 = max # of 1-3 neighbors
+     0 = max # of 1-4 neighbors
+     1 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+  read_data CPU = 0.003 seconds
+###############################################
+               PPP INITIALIZATION              
+###############################################
+Number of atoms:  8
+Number of electrons:  8
+Number of orbitals:  4
+Mode:  rhf
+Gamma parametrization:  BH
+Beta parametrization:  BH
+Ionization Potential choice:  BH
+Electron Affinity choice:  BH
+Max number of iterations:  100
+Error tolerance:  1e-06
+Energy tolerance:  0.0001
+###############################################
+
+this works
+Number of CUDA-capable devices:  4
+Name:  NVIDIA A30
+Name:  NVIDIA A30
+Name:  NVIDIA A30
+Name:  NVIDIA A30
+cudaMalloc: cudaSuccess
+cudaMemcpy: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 35401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+0 2 
+cudaMemcpyEigenvec: cudaSuccess
+Eigenvector  0
+-0.7071067811865475 -0.7071067811865475 
+Eigenvector  1
+-0.7071067811865475 0.7071067811865475 
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+- Type Label Framework: https://doi.org/10.1021/acs.jpcb.3c08419
+The log file lists these citations in BibTeX format.
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+WARNING: No fixes with time integration, atoms won't move (src/verlet.cpp:60)
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 10000, page size: 100000
+  master list distance cutoff = 14
+  ghost atom cutoff = 14
+  binsize = 7, bins = 15 15 15
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : real
+  Current step  : 0
+  Time step     : 1
+Per MPI rank memory allocation (min/avg/max) = 6.028 | 6.028 | 6.028 Mbytes
+   Step          Temp          Press          Volume         TotEng         E_coul         KinEng         PotEng    
+         0   0              35969.674      1000000        130847.06      0              0              130847.06    
+
+
+Warm-Up Phase
+
+Iteration:  -4
+cudaMallocA success
+cudaMallocB success
+cudaMallocC success
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+Total energy:  0
+buildDensityTime:  0.0007987879999999947
+buildFockTime: 0.005536683999999958
+solveFockTime: 0.003223938000000093
+Iteration:  -3
+cudaMallocA success
+cudaMallocB success
+cudaMallocC success
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+Total energy:  0
+buildDensityTime:  0.0009063429999995876
+buildFockTime: 7.785000000204434e-06
+solveFockTime: 0.0025762469999999205
+Iteration:  -2
+cudaMallocA success
+cudaMallocB success
+cudaMallocC success
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+Total energy:  0
+buildDensityTime:  0.0008928569999997471
+buildFockTime: 7.04300000009539e-06
+solveFockTime: 0.002592758999999667
+Iteration:  -1
+cudaMallocA success
+cudaMallocB success
+cudaMallocC success
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+Total energy:  0
+buildDensityTime:  0.0008790410000001359
+buildFockTime: 6.872999999796292e-06
+solveFockTime: 0.002527072999999991
+Iteration:  0
+cudaMallocA success
+cudaMallocB success
+cudaMallocC success
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+Total energy:  0
+buildDensityTime:  0.0009021049999997643
+buildFockTime: 6.122000000274852e-06
+solveFockTime: 0.0025426940000001785
+
+
+Pre-DIIS Phase
+
+Iteration:  1
+cudaMallocA success
+cudaMallocB success
+cudaMallocC success
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+Total energy:  -9.465764223010918
+Ediff:  9.465764223010918
+Norm error: 0
+buildDensityTime:  0.0009036579999999184
+buildFockTime: 6.0519999998120966e-06
+solveFockTime: 0.0025505779999996925
+Iteration:  2
+cudaMallocA success
+cudaMallocB success
+cudaMallocC success
+cudaMallocFockMatrix: cudaSuccess
+cudaMemcpyFockMatrix: cudaSuccess
+cusolverDnCreate success
+cusolverDnDsyevd_bufferSize success
+Buffer size: 36401
+cudaMallocEigenvalue:  cudaSuccess
+cudaMallocWork:  cudaSuccess
+cudaMallocInfo:  cudaSuccess
+cusolverDnDsyevd success
+cudaMemcpyEigenBack: cudaSuccess
+cudaMemcpyEigenvec: cudaSuccess
+Total energy:  -9.4657642933743
+Ediff:  7.036338089960736e-08
+Norm error: 0
+buildDensityTime:  0.000890051999999919
+buildFockTime: 5.851000000056672e-06
+solveFockTime: 0.002546070000000178
+
+
+DIIS Phase
+
+         1   0              35969.674      1000000        130847.06      0              0              130847.06    
+Loop time of 0.0305575 on 1 procs for 1 steps with 8 atoms
+
+Performance: 2.827 ns/day, 8.488 hours/ns, 32.725 timesteps/s, 261.801 atom-step/s
+29.8% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 1.293e-06  | 1.293e-06  | 1.293e-06  |   0.0 |  0.00
+Bond    | 2.4e-07    | 2.4e-07    | 2.4e-07    |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 7.91e-07   | 7.91e-07   | 7.91e-07   |   0.0 |  0.00
+Output  | 5.1427e-05 | 5.1427e-05 | 5.1427e-05 |   0.0 |  0.17
+Modify  | 0.030494   | 0.030494   | 0.030494   |   0.0 | 99.79
+Other   |            | 9.87e-06   |            |       |  0.03
+
+Nlocal:              8 ave           8 max           8 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:              0 ave           0 max           0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             28 ave          28 max          28 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 28
+Ave neighs/atom = 3.5
+Ave special neighs/atom = 0
+Neighbor list builds = 0
+Dangerous builds = 0
+###############################################
+              PPP OUTPUT SUMMARY               
+###############################################
+Occupied
+-14.264198730102166
+-11.909682549039129
+-10.507754985115055
+-9.321248812208806
+Unoccupied
+-3.0952366409952634
+1.0522739248073156
+2.1001389369192043
+2.6846922460618967
+Total energy: -257.46878877978094
+###############################################
+System init for write_data ...
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Total wall time: 0:00:03
